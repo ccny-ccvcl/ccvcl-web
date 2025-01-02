@@ -1,0 +1,9 @@
+@article{tang2016prejourney,
+  title={Automatic Pre-Journey Indoor Map Generation Using AutoCAD Floor Plan},
+  author={ Tang, Hao and Tsering, Norbu and Hu, Feng},
+  journal={Journal on Technology and Persons with Disabilities},
+  volume={4},
+  number={},
+  pages={176--191},
+  year={2016},
+}

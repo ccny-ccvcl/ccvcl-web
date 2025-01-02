@@ -1,0 +1,14 @@
+@articleInfo{ElectronEng-01-00074,
+title = "Real-time indoor assistive localization with mobile omnidirectional vision and cloud GPU acceleration",
+journal = "AIMS Electronics and Electrical Engineering",
+volume = "1",
+number = "ElectronEng-01-00074,
+pages = "74",
+year = "2017",
+note = "",
+issn = "2578-1588",
+doi = "http://dx.doi.org/10.3934/ElectrEng.2017.1.74",
+url = "",
+author = "Feng Hu, Zhigang Zhu, Jeury Mejia, Hao Tang, Jianting Zhang"
+keywords = "assistive indoor localization| real-time system| GPU acceleration| mobile computing| omnidirectional vision"
+}

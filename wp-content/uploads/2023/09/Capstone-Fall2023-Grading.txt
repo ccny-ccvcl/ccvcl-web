@@ -1,0 +1,55 @@
+CSc 59866/7 Capstone I/II Fall 2023 -Spring 2024
+BEAT+: Adding Branding and Entrepreneurship for Real-World  Applications Using Emerging Technologies: AI, AR/VR, AT, and Apps
+
+	10%	10%	10%	20%	10%	10%	10%	20%	1%	3%	3%	3%	110%
+Name	A1	A2	A3	P1	A4	A5	A6	P2	Attend	Zahn	CREATE	Other	Tech	Ethics
+BAS	10.0	8.0	7.0	13.6	90.0	75.0			1.0		3.0		
+BT	10.0	5.0	7.0	14.2	85.0	85.0			1.0		2.0		
+CCWD	9.0	7.0	7.0	13.6	75.0	50.0			1.0		0.0		
+CH	10.0	5.0	7.0	14.2	100.0	85.0			1.0		2.0		
+CI	8.0	6.0	7.5	13.4	90.0	75.0					3.0		
+DA	10.0	8.0	7.0	13.6	90.0	80.0					3.0		
+FJ	9.0	7.0	8.0	13.2	85.0	75.0			1.0		0.0		
+FPA	10.0	7.0	8.0	13.2	85.0	70.0			1.0		0.0		
+GST	5.0	5.0	7.0	14.2	95.0	85.0					2.0		
+IM	10.0	9.5	8.0	16.2	80.0	70.0					0.0		
+JN	10.0	9.0	9.0	14.4	100.0	90.0			0.5		3.0		
+KIA	10.0	6.0	7.5	13.4	85.0	90.0					3.0		
+LHL	9.0	7.0	7.0	13.6	95.0	100.0			1.0		0.0		
+MM	10.0	9.0	9.0	14.4	100.0	90.0			1.0		3.0		
+MBR	9.0	9.0	9.0	14.4	95.0	0.0			1.0		3.0		
+RM	10.0	9.5	8.0	16.2	100.0	90.0					0.0		
+SK	9.0	8.5	9.0	14.6	100.0	80.0			1.0		3.0		
+SSN	10.0	6.0	7.5	13.4	98.0	60.0			1.0		3.0		
+SJ	10.0	9.5	8.0	16.2	97.0	85.0					0.0		
+VJ	10.0	8.0	7.0	13.6	100.0	80.0					3.0		
+ZJ	9.0	8.5	9.0	14.6	100.0	75.0			1.0		3.0		
+													
+Perfect	10.0	10.0	10.0	20.0	100.0	100.0	100.0	20.0	1.0	3.0	3.0	3.0	110.0				
+
+08/28. Introduction 		
+
+09/05. A1. Resume with Project Topic(s) and Teaming – 10%		
+10: everything; 9: format or > 1 page or topic too vague; 8:missed GPA and/or topics/teams, and others; 5: late
+
+10/08. A2. E-Proposals in wiki and quad chart – 10%
+
+10/16. A3. BIC-Proposals shared in wiki or Google Drive – 10%
+
+10/23. P1. Proposal presentations to community partners (zoom) -20%
+
+11/20. A4. Vision Writing Questions (Feature Extraction). – 10%			
+			
+11/27. A5. Vision Writing Questions (Stereo & Motion). – 10%			
+			
+12/10. A6. Dry Run on 12/04 (50 pts), Revised BEAT-Proposal shared in wiki  (10 pts) and proposal and  slides in PDF uploaded there (40 pts)  – 10%.			
+			
+12/11. P2. Revised proposals presented to community partners – 20%			
+			
+12/14. Bonus. Zahn Invitation or CREATE award (2 for proposal and 1 for revision)  or Other Fund:  adding 3 points each, up to 5 pts total	
+		
+11/20.  1 pt for  attendance (ATTEND)			
+			
+Tech: The total for the Technical Part (110%) which accounts for 2/3 of your final	
+		
+Ethics: The total for the Ethics part (lectures), which accounts for 1/3 of your final				

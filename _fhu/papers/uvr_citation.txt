@@ -1,0 +1,10 @@
+@inproceedings{hu2022seeing,
+  title={“Seeing” the Invisible: Under Vehicle Reconstruction (UVR) for Surround View Visualization},
+  author={Hu, Feng and Yu, Shuping and Zhou, Wenjia},
+  booktitle={Journal of Physics: Conference Series},
+  volume={2330},
+  number={1},
+  pages={012015},
+  year={2022},
+  organization={IOP Publishing}
+}

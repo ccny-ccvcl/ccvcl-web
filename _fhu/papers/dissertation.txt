@@ -1,0 +1,7 @@
+@book{hu2018vision,
+  title={Vision-based Assistive Indoor Localization},
+  author={Hu, Feng},
+  year={2018},
+  publisher={City University of New York}
+}
+

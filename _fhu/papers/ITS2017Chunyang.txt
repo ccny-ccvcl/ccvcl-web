@@ -1,0 +1,7 @@
+@inproceedings{ITS2017Chunyang,
+  title={Reducing Air Pollution Exposure in A Road Trip},
+  author={Ma, Chunyang and Duan, Ning and Sun, Wei and Hu, Feng and Huang, Jingchang and Ji, Peng and Renjie, Yao},
+  booktitle={24rd World Congress on Intelligent Transportation Systems},
+  pages={},
+  year={Montreal, Canada, October, 2017},
+}

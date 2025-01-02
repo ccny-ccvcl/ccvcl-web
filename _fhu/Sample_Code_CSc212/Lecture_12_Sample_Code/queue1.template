@@ -1,0 +1,55 @@
+// FILE: queue1.template
+// TEMPLATE CLASS IMPLEMENTED: queue<Item> (see queue1.h for documentation)
+// This file is included in the header file, and not compiled separately.
+// INVARIANT for the queue class:
+//   1. The number of items in the queue is in the member variable count;
+//   2. For a non-empty queue, the items are stored in a circular array
+//      beginning at data[front] and continuing through data[rear].
+//      The array's total capacity of the array is CAPACITY.
+//   3. For an empty array, rear is some valid index, and front is
+//      always equal to next_index(rear).
+//      
+
+#include <cassert>  // Provides assert
+
+namespace main_savitch_8B
+{
+    template <class Item>
+    const typename queue<Item>::size_type queue<Item>::CAPACITY;
+    
+    template <class Item>
+    queue<Item>::queue( )
+    {
+        count = 0;
+        first = 0;
+        last = CAPACITY - 1;
+    }
+
+    template <class Item>
+    Item queue<Item>::front( ) const
+    // Library facilities used: cassert
+    {
+        assert(!empty( ));
+	return data[first];
+    }
+
+    template <class Item>
+    void queue<Item>::pop( )
+    // Library facilities used: cassert
+    {
+        assert(!empty( ));
+        first = next_index(first);
+        --count;    
+    }
+    
+    template <class Item>
+    void queue<Item>::push(const Item& entry)
+    // Library facilities used: cassert
+    {
+        assert(size( ) < CAPACITY);
+        last = next_index(last);
+        data[last] = entry;
+        ++count;
+    }
+
+}

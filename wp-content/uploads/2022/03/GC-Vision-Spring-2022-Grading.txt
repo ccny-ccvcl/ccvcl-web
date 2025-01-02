@@ -1,0 +1,27 @@
+The CUNY Graduate Center 	
+CSC 74030-01 (58079) Computer Vision and Image Processing, Spring 2022	
+Time and Location: Wednesday 9:30 – 11:30 am, The CUNY Graduate Center	
+
+
+Letter: A+: >=96; A: >=90; A- >=85; B+: >=80; B: >=75; B-: >=70; C+: >=65; C: >=57; F: <57										
+										
+	15%	15%	15%	1%	30%	1%	15%	10%	102%	
+Name	HW1	HW2	HW3	Bonus	Exam	ProposalPresent	Report	Final	Letter
+AKB	89	63	56		66	1	0		52.0	F
+AM	83	80	71		71	1	0		57.4	C
+CYJ	92	90	78	1	91	1	91	93	91.3	A
+FW	100	105	77	1	82	1	96	100	93.3	A
+GD	100	97	103	1	67	1	100	95	91.6	A
+HE									0.0	
+LAKS	89	90	97	1	87	1	98	99	94.1	A
+MD	80	83	100		78	1	83	95	85.8	A-
+QJ	92	109	100	1	91	1	83	98	96.7	A+
+SA	92	85	92		67	1	85	88	83.0	B+
+ScM	92	60	75		84	1	93	95	83.7	B+
+SN	88	83	98		74	1	96	100	88.0	A-
+ShM	96	65	30		72	1	83	95	73.2	B-
+SP	100	60	60		58	1	73	85	70.9	B-
+TR	75					1	0		12.3	F
+WZ	93	86	81	1	66	1	70	90	80.3	B+
+WR									0.0	F
+YY	98	99	81	1	88	1	83	95	92.1	A

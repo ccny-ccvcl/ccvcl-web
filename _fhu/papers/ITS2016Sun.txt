@@ -1,0 +1,7 @@
+@inproceedings{ITS2016Sun,
+  title={Intelligent In-Vehicle Air Quality Management: A Smart Mobility Application Dealing With Air Pollution In The Traffic},
+  author={Sun, Wei and Duan, Ning and Ji, Peng and Yao, Renjie and Ma, Chunyang and Huang, Jinchang and Hu, Feng},
+  booktitle={23rd World Congress on Intelligent Transportation Systems},
+  pages={},
+  year={Melbourne, Australia, October, 2016},
+}

@@ -1,0 +1,64 @@
+CSc 59866/7 Capstone I/II Fall 2022 -Spring 2023
+BEAT+: Adding Branding and Entrepreneurship for Real-World  Applications Using Emerging Technologies: AI, AR/VR, AT, and Apps
+
+				A+: >=97; A: >= 93; A-: >=89; B+: >=85; B: >= 80; B- >=75; C+: >=70; C: >=65; C-: >=60; F: < 60													
+																	
+												0.67%	0.33%				
+	10%	10%	10%	15%	10%	10%	10%	10%	15%	5%	2%	107%					
+Name	A1	A2	A3	P1	A4	A5	A6	A7	P2	Bonus	Attend	Tech	Ethics	Final	Letter	Notes	
+ARD	10.0	7.0	8.0	11.7	10.0	87.0	0.0	90.0	14.2	5.0		83.6	87	84.7	B+	
+BaJ	10.0	8.5	7.0	12.2	10.0	70.0	0.0	85.0	13.7	10.0		86.9	92	88.6	A-	
+BuJ	8.0	7.0	8.0	11.7	10.0	0.0	0.0	90.0	14.2	5.0		72.9	96	80.6	B	
+DA	9.0	8.0	8.5	10.5	9.0	88.0	45.0	90.0	13.1	0.0		80.4	95	85.2	B+	
+IS	10.0	7.0	8.0	11.7	10.0	95.0	100.0	90.0	14.2	5.0		94.4	91	93.3	A	
+JJ	10.0	8.0	7.5	13.6	10.0	85.0	83.0	85.0	13.9	10.0		98.4	97	97.9	A+	
+LTR	8.0	8.0	8.5	10.5	9.0	93.0	57.0	90.0	13.1	0.0		81.1	88	83.4	B	
+MJR	9.0	8.0	7.5	13.6	10.0	83.0	78.0	85.0	13.9	10.0		96.7	90	94.4	A	
+MH	10.0	9.0	8.5	12.9	10.0	75.0	60.0	90.0	13.8	10.0		96.7	92	95.2	A	
+OS	9.0	8.0	7.0	13.0	9.0	95.0	80.0	90.0	14.3	5.0		91.7	90	91.2	A-	
+PD	9.0	8.5	8.0	13.1	10.0	100.0	70.0	85.0	13.3	10.0		97.4	91	95.3	A	
+QI	9.0	8.0	7.0	13.0	9.0	90.0	65.0	90.0	14.3	5.0		89.7	88	89.2	A-	
+RR	9.0	8.0	8.5	10.5	9.0	85.0	85.0	90.0	13.1	0.0		84.1	89	85.7	B+	
+SRF	8.0	8.0	7.5	13.6	10.0	100.0	95.0	85.0	13.9	10.0		99.1	94	97.4	A+	
+SM	9.0	9.5	9.5	12.2	8.0	98.0	61.0	98.0	13.8	5.0		92.7	95	93.4	A	
+SD	10.0	8.5	7.0	12.2	10.0	93.0	0.0	85.0	13.7	10.0		89.2	88	88.8	A-	
+SW	10.0	9.0	8.5	12.9	10.0	88.0	70.0	90.0	13.8	10.0		99.0	95	97.7	A+	
+SJ	9.0	9.0	8.5	12.9	10.0	98.0	85.0	90.0	13.8	10.0		100.5	92	97.7	A+	
+TA	8.0	9.5	9.5	12.2	8.0	85.0	65.0	98.0	13.8	5.0		90.8	90	90.5	A-	
+TB	0.0	8.5	8.0	13.1	10.0	40.0	60.0	85.0	13.3	10.0		81.4	90	84.3	B	Change after ethics submission
+YC	9.0	9.5	9.5	12.2	8.0	88.0	66.0	98.0	13.8	5.0		92.2	92	92.1	A-	
+YJ	9.0	8.0	7.0	13.0	9.0	90.0	55.0	90.0	14.3	5.0		88.7	89	88.8	A-	
+ZC	10.0	8.0	8.5	10.5	9.0	85.0	60.0	90.0	13.1	0.0		82.6	89	84.7	B+	
+ZM	10.0	7.0	8.0	11.7	10.0	75.0	90.0	90.0	14.2	5.0		91.4	91	91.3	A-	
+ZA	9.0	8.5	8.0	13.1	10.0	100.0	70.0	85.0	13.3	10.0		97.4	96	96.9	A+	Change after ethics submission
+
+
+09/07. A1. Resume with Project Topic(s) and Teaming – 10%		
+10: everything; 9: format or > 1 page; 8:missed GPA and/or topics/teams, and others; 5: late									
+											
+10/02. A2. E-Proposals in wiki and quad chart – 10%											
+											
+10/14. A3. BIC-Proposals shared in wiki or Google Drive – 10%											
+											
+10/17. P1. Proposal presentations to community partners (zoom) -15%											
+											
+11/13. A4. BEAT-Proposals submitted to Zahn/etc. – 10%		
+8:  Submitted; 9: Submitted and Interviewed; 10 Submitted and Invited  to Semifinal.									
+
+11/21. A5. Vision Writing Questions (Feature Extraction). – 10%
+
+11/28. A6. Vision Writing Questions (Stereo & Motion). – 10%
+
+12/11. A7. Revised BEAT-Proposal shared in wiki  (20 pts) and proposal and  slides in PDF uploaded there (80 pts)  – 10%.
+
+12/12. P2. Revised proposals presented to community partners – 15%
+
+12/15. Bonus. Zahn Invitation or CREATE award  adding 5 points each
+
+Attendance: Attending AI4IA seminar +1 pt each - 0% for this year
+
+Tech: The total for the Technical Part (107%) which accounts for 2/3 of your final
+
+Ethics: The total for the Ethics part (lectures), which accounts for 1/3 of your final
+
+A+: >=97; A: >= 93; A-: >=89; B+: >=85; B: >= 80; B- >=75; C+: >=70; C: >=65; C-: >=60; F: < 60	

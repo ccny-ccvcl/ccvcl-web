@@ -1,0 +1,30 @@
+The CUNY Graduate Center 	
+Spring 2023; CSC 83020 - 01 (55719) ST: Human & Computer Vision and Advanced Topics	
+Time and Location: Wednesday 9:30 – 11:30 am, The CUNY Graduate Center, Room 3207	
+	
+
+	15%	15%	15%	2%	30%	1%	15%	10%	103%	
+Name	HW1	HW2	HW3	Bonus	Exam	ProposalPresent	Report	Final	Letter
+CGQ	89	94	101		88	1	97.5	94	94.0	A
+CXJ	94	90.5	93	2	90	1	85	92	93.6	A
+CAG	86	45	43	2	86	1	75.5	83	74.5	B
+FO	57	32	64		46	1	81.5	80	58.0	C
+FD	78	57	80		47	1	90	89	69.8	B-
+LJW	100	108	105	2	97	1	92.5	94	102.3	A+
+MJ	89	101	97	2	92	1	90	90	96.2	A+
+MI	80	96	85		80	1	89.5	93	86.9	A-
+NRM	49			-1	39	0				W
+OCT	94	92	102	1	75	1	89.5	93	90.4	A
+RGi 	83	101	95	2	89	1	90	90	94.1	A
+ZBQ	90	80.5	91	2	78	1	85	92	87.6	A-
+ZLZ	100	104	101.5	1	100	1	95	94	101.5	A+
+ZM	79.5			2	83	1				INC
+ZYN	91	98	97	1	100	1	95	94	98.6	A+
+
+
+Bonus	Each IC CAE talk: 1% or 2%;  absence without notice in advance: -1 (04/26)
+Proposal	1% before April 04, 0.5 before April 11	
+Presentation	15/15 grading, account to 15% for the final	
+Report	15/15 grading, but this is scaled to 10% for the final	
+Final	103	
+Letter: A+: >=96; A: >=90; A- >=85; B+: >=80; B: >=75; B-: >=70; C+: >=65; C: >=57; F: <57

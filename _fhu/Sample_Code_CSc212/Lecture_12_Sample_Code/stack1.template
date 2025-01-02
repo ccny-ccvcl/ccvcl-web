@@ -1,0 +1,41 @@
+// FILE: stack1.template
+// TEMPLATE CLASS IMPLEMENTED: stack<Item> (see stack1.h for documentation)
+// This file is included in the header file, and not compiled separately.
+// INVARIANT for the stack class:
+//   1. The number of items in the stack is in the member variable used.
+//   2. The actual items of the stack are stored in a partially-filled
+//      array data[0]..data[used-1]. The stack elements appear from the
+//      bottom (at data[0]) to the top (at data[used-1]).
+
+#include <cassert>  // Provides assert
+
+namespace main_savitch_7A
+{
+    template <class Item>
+    const typename stack<Item>::size_type stack<Item>::CAPACITY;
+    
+    template <class Item>
+    void stack<Item>::push(const Item& entry)
+    // Library facilities used: cassert
+    {
+        assert(size( ) < CAPACITY);
+        data[used] = entry;
+        ++used;
+    }
+    
+    template <class Item>
+    void stack<Item>::pop( )
+    // Library facilities used: cassert
+    {
+        assert(!empty( ));
+        --used;
+    }
+
+    template <class Item>
+    Item stack<Item>::top( ) const
+    // Library facilities used: cassert
+    {
+        assert(!empty( ));
+        return data[used-1];
+    }
+}

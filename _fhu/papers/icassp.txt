@@ -1,0 +1,9 @@
+@inproceedings{ren2021camera,
+  title={Camera Calibration with Pose Guidance},
+  author={Ren, Yuzhuo and Hu, Feng},
+  booktitle={ICASSP 2021-2021 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
+  pages={2180--2184},
+  year={2021},
+  organization={IEEE}
+}
+

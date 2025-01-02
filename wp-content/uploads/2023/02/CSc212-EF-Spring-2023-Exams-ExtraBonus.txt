@@ -1,0 +1,40 @@
+CSC 21200 - EF	Data Structures Exams
+MoWe 2:00PM-3:40PM,  Spring 2023	
+
+Name	E1	E2	E3	Bonus	Extra
+AH	42.0	68.0		5.2	
+AM	56.0	64.0		1.6	2
+AY	60.0	71.0		2.2	
+BT	61.0	79.0		3.6	
+CF	51.0	67.0		3.2	
+DN	44.0	61.0		3.4	
+DKA	62.0	81.0		3.8	1
+DO	60.0	71.0		2.2	
+ESMB	58.0	85.0		5.4	2
+EWM	62.0	54.0		0	2
+FI	80.0	81.0		0.2	2
+FHM	64.0	80.0		3.2	
+GR	41.0	67.0		5.2	2
+GJ	48.0	68.0		4	
+HM	37.0	0.0		0	
+HBAF	70.0	77.0		1.4	
+HB	50.0	65.0		3	1
+JC	58.0	63.0		1	
+KTQ	60.0	69.0		1.8	
+MJ	70.0	69.0		0	
+MG	55.0	26.0		0	2
+MA	42.0	58.0		3.2	
+MM	83.0	65.0		0	
+OJ	60.0	70.0		2	1
+PJN	57.0	86.0		5.8	
+PL	48.0	73.0		5	2
+RS	42.0	69.0		5.4	
+RC	40.0	82.0		8.4	
+VB	80.0	76.0		0	
+WJ	64.0	86.0		4.4	1
+ZZA	73.0	76.0		0.6	
+
+
+Bonus = (max(0, (E3-E2))+max(0,(E2-E1)))/5: for  performance increase between consecutive exams: 
+Every 5-point increase gains 1 bonus point; no penalty if performance is decreased; but you have to take all the three exams				
+Extra Credits: IC CAE Talks: 1-2 points (online or in-person)

@@ -1,0 +1,87 @@
+// FILE: queue2.template
+// TEMPLATE CLASS IMPLEMENTED: Queue<Item> (see queue2.h for documentation)
+// This file is included in the header file, and not compiled separately.
+// INVARIANT for the Queue class:
+//   1. The number of items in the queue is stored in the member variable
+//      count.
+//   2. The items in the queue are stored in a linked list, with the front of
+//      the queue stored at the head node, and the rear of the queue stored at
+//      the final node.
+//   3. The member variable front_ptr is the head pointer of the linked list of
+//      items. For a non-empty queue, the member variable rear_ptr is the
+//      tail pointer of the linked list; for an empty list, we don't care
+//      what's stored in rear_ptr.
+
+#include <cassert>   // Provides assert
+#include "node2.h"   // Node template class
+
+namespace main_savitch_8C
+{
+    template <class Item>
+    queue<Item>::queue( )
+    {
+        count = 0;
+        front_ptr = NULL;
+    }
+
+    template <class Item>
+    queue<Item>::queue(const queue<Item>& source)
+    // Library facilities used: node2.h
+    {
+	count = source.count;
+	list_copy(source.front_ptr, front_ptr, rear_ptr);
+    }
+
+    template <class Item>
+    queue<Item>::~queue( )
+    {
+        list_clear(front_ptr);
+    }
+
+    template <class Item>
+    void queue<Item>::operator =(const queue<Item>& source)
+    // Library facilities used: node2.h
+    {
+        if (this == &source) // Handle self-assignment
+            return;
+        list_clear(front_ptr);
+        list_copy(source.front_ptr, front_ptr, rear_ptr);
+        count = source.count;
+    }
+
+    template <class Item>
+    Item queue<Item>::front( ) const
+    // Library facilities used: cassert
+    {
+        assert(!empty( ));    
+        return front_ptr->data( );
+    }
+    
+    template <class Item>
+    void queue<Item>::pop( )
+    // Library facilities used: cassert, node2.h
+    {
+        assert(!empty( ));
+	list_head_remove(front_ptr);
+	--count;
+    }
+    
+    template <class Item>
+    void queue<Item>::push(const Item& entry)
+    // Library facilities used: node2.h
+    {
+        if (empty( ))
+        {   // Insert first entry.
+            list_head_insert(front_ptr, entry);
+            rear_ptr = front_ptr;
+        }
+        else
+        {   // Insert an entry that is not the first.
+            list_insert(rear_ptr, entry);
+            rear_ptr = rear_ptr->link( );
+        }
+        ++count;
+    }
+
+}
+

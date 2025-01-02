@@ -1,0 +1,9 @@
+@inproceedings{seatbelt22,
+  title={Robust Seatbelt Detection and Usage Recognition for Driver Monitoring Systems},
+  author={Feng Hu},
+  booktitle={AAAI22 workshop Trustworthy Autonomous Systems Engineering (TRASE-22)},
+  volume={},
+  pages={},
+  year={Feb, 2022}
+}
+

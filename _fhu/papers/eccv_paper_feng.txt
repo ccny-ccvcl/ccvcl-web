@@ -1,0 +1,8 @@
+@inproceedings{hu2014mobile,
+  title={Mobile Panoramic Vision for Assisting the Blind via Indexing and Localization},
+  author={Hu, Feng and Zhu, Zhigang and Zhang, Jianting},
+  booktitle={Computer Vision-ECCV 2014 Workshops},
+  pages={600--614},
+  year={2014},
+  organization={Springer}
+}

@@ -1,0 +1,9 @@
+@article{hu2016assistive3DLocalization,
+  title={Indoor Localization for the Visually Impaired Using a 3D Sensor},
+  author={ Hu, Feng and Tsering, Norbu and Tang, Hao and  Zhu, Zhigang},
+  journal={Journal on Technology and Persons with Disabilities},
+  volume={4},
+  number={},
+  pages={192--203},
+  year={2016},
+}

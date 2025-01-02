@@ -1,0 +1,57 @@
+CSc 59866/7 Capstone I/II Fall 2023 -Spring 2024
+BEAT+: Adding Branding and Entrepreneurship for Real-World  Applications Using Emerging Technologies: AI, AR/VR, AT, and Apps
+
+	10%	10%	10%	20%	10%	10%	10%	20%	1%	3%	3%	3%	110%	100%	106.7%
+Name	A1	A2	A3	P1	A4	A5	A6	P2	Attend	Zahn	CREATE	Other	Tech	Ethics	Final	Letter
+BAS	10.0	8.0	7.0	13.6	90.0	75.0	94.8	16.9	1.0	2.0	3.0		87.5	89	88.0	A-
+BT	10.0	5.0	7.0	14.2	85.0	85.0	76.3	17.1	1.0	0.0	2.0		80.9	96	85.9	B+
+CCWD	9.0	7.0	7.0	13.6	75.0	50.0	69.3	17.1	1.0	0.0	0.0		74.2	89	79.1	B-
+CH	10.0	5.0	7.0	14.2	100.0	85.0	76.3	17.1	1.0	0.0	2.0		82.4	94	86.3	B+
+CI	8.0	6.0	7.5	13.4	90.0	75.0	81.3	17.7		0.0	3.0		80.2	91	83.8	B
+DA	10.0	8.0	7.0	13.6	90.0	80.0	94.8	16.9		2.0	3.0		87.0	94	89.3	A-
+FJ	9.0	7.0	8.0	13.2	85.0	75.0	79.5	17.2	1.0	0.0	0.0		79.3	95	84.6	B+
+FPA	10.0	7.0	8.0	13.2	85.0	70.0	79.5	17.2	1.0	0.0	0.0		79.8	93	84.2	B
+GST	5.0	5.0	7.0	14.2	95.0	85.0	76.3	17.1		0.0	2.0		75.9	92	81.3	B-
+IM	10.0	9.5	8.0	16.2	80.0	70.0	92.0	17.5		0.0	0.0		85.4	89	86.6	B+
+JN	10.0	9.0	9.0	14.4	100.0	90.0	88.0	16.8	0.5	2.0	3.0		92.5	92	92.3	A
+KIA	10.0	6.0	7.5	13.4	85.0	90.0	81.3	17.7		0.0	3.0		83.2	91	85.8	B+
+LHL	9.0	7.0	7.0	13.6	95.0	100.0	69.3	17.1	1.0	0.0	0.0		81.2	90	84.1	B
+MM	10.0	9.0	9.0	14.4	100.0	90.0	88.0	16.8	1.0	2.0	3.0		93.0	92	92.7	A
+MBR	9.0	9.0	9.0	14.4	95.0	0.0	88.0	16.8	1.0	2.0	3.0		82.5	86	83.7	B
+RM	10.0	9.5	8.0	16.2	100.0	90.0	92.0	17.5		0.0	0.0		89.4	90	89.6	A
+SK	9.0	8.5	9.0	14.6	100.0	80.0	84.0	16.9	1.0	2.0	3.0		90.4	94	91.6	A
+SSN	10.0	6.0	7.5	13.4	98.0	60.0	81.3	17.7	1.0	0.0	3.0		82.5	90	85.0	B+
+SJ	10.0	9.5	8.0	16.2	97.0	85.0	92.0	17.5		0.0	0.0		88.6	93	90.1	A
+VJ	10.0	8.0	7.0	13.6	100.0	80.0	94.8	16.9		2.0	3.0		88.0	90	88.7	A-
+ZJ	9.0	8.5	9.0	14.6	100.0	75.0	84.0	16.9	1.0	2.0	3.0		89.9	90	90.0	A
+																
+Mr. P	10.0	10.0	10.0	20.0	100.0	100.0	100.0	20.0	1.0	3.0	3.0	3.0	110.0	100	106.7	A+
+
+08/28. Introduction 		
+
+09/05. A1. Resume with Project Topic(s) and Teaming – 10%		
+10: everything; 9: format or > 1 page or topic too vague; 8:missed GPA and/or topics/teams, and others; 5: late
+
+10/08. A2. E-Proposals in wiki and quad chart – 10%
+
+10/16. A3. BIC-Proposals shared in wiki or Google Drive – 10%
+
+10/23. P1. Proposal presentations to community partners (zoom) -20%
+
+11/20. A4. Vision Writing Questions (Feature Extraction). – 10%			
+			
+11/27. A5. Vision Writing Questions (Stereo & Motion). – 10%			
+			
+12/10. A6. Dry Run on 12/04 (50 pts), Revised BEAT-Proposal shared in wiki  (10 pts) and proposal and  slides in PDF uploaded there (40 pts)  – 10%.			
+			
+12/11. P2. Revised proposals presented to community partners – 20%			
+			
+12/14. Bonus. Zahn Invitation or CREATE award (2 for proposal and 1 for revision)  or Other Fund:  adding 3 points each, up to 5 pts total	
+		
+11/20.  1 pt for  attendance (ATTEND)			
+			
+Tech: The total for the Technical Part (110%) which accounts for 2/3 of your final	
+		
+Ethics: The total for the Ethics part (lectures), which accounts for 1/3 of your final
+				
+A+: >=95; A: >= 90; A-: >=88; B+: >=85; B: >= 83; B- >=79; C+: >=70; C: >=65; C-: >=60; F: < 60

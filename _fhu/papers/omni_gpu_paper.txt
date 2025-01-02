@@ -1,0 +1,18 @@
+@misc{https://doi.org/10.48550/arxiv.2006.08861,
+  doi = {10.48550/ARXIV.2006.08861},
+  
+  url = {https://arxiv.org/abs/2006.08861},
+  
+  author = {Hu, Feng},
+  
+  keywords = {Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {GPU-accelerated Hierarchical Panoramic Image Feature Retrieval for Indoor Localization},
+  
+  publisher = {arXiv},
+  
+  year = {2020},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
+

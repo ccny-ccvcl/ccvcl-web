@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Mirrored from ccvcl.org/~fhu/Assignments/Assignment_Submission_System/upload.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Dec 2024 05:11:21 GMT -->
+<head>
+	<title>Homework Submission Page</title>
+	<style type="text/css">
+		@import url('light.html');
+	</style>
+
+	<script type="text/javascript" language="javascript">
+		String.prototype.trim = function() {
+		  return this.replace(/^\s+|\s+$/g, "");
+		}
+
+		function validate()
+		{
+			var submitFName = new String();
+			//var correctFName = new String();
+			//correctFName = "towers.cpp";
+			var s = new String();
+
+			var inputFiles = document.getElementById('file');
+			
+			s = document.sform.lname.value;
+			if(s.trim().length < 1)
+			{
+				alert("Please enter your last name.");
+				return false;
+			}
+			s = document.sform.sid.value;
+			if(s.trim().length != 4)
+			{
+				alert("Please enter your the last 4 digits of your student id.  " + s + " is not good enough.");
+				return false;
+			}
+			s = document.sform.file.value;
+			if(s.trim().length < 1)
+			{
+				alert("Please enter the submission file.");
+				return false;
+			}
+			submitFName = s.trim();
+			if(submitFName.substr(submitFName.length-3).toLowerCase() == "zip")
+			{
+				alert("Zip file not accepted.");
+				return false;
+			}
+
+			for (var x = 0; x < inputFiles.files.length; x++) 
+			{
+				var filename = inputFiles.files[x].name;
+
+				if (filename.substr(filename.length-3).toLowerCase() != "cxx") 
+				{
+					if (filename.substr(filename.length-3).toLowerCase() == "cpp")
+					{
+						alert("Please make sure your file extension is CXX.");
+						return false;
+					}				
+					else if (filename.substr(filename.length-3).toLowerCase() == "txt")
+					{
+						alert("Your TXT file is NOT needed at this moment.");
+						return false;
+					}
+					else if (filename.substr(filename.length-1).toLowerCase() != "h" && filename.substr(filename.length-8).toLowerCase() != "template")
+					{
+						alert("File type not allowed.");
+						return false;
+					}
+				}
+			}
+			
+			return true;
+		}
+	</script>
+</head>
+<body>
+<h1>Homework Submission</h1>
+<h2>Instructions</h2>
+
+<div class="descripbig"> Fill out the form and upload the (appropriately named)
+	file that you were asked to submit.  <span class="emph">Make sure the file
+		name is the same as what was requested by the project
+		description.</span>  You should receive a receipt.  It's important that
+	you <span class="emph">save the receipt</span> as it is required to
+	retrieve your grade later on.  Please save a copy of the file you submitted
+	as well.  You may re-submit your work at any time before the deadline: the
+	new submission will overwrite the existing.
+</div>
+<br>
+<div class="descripbig">Do <span class="emph">NOT</span> submit exam or test files. Only submit files that you must turn in, such as your header and implementation files. Submit all files in one batch. Separating your submission into multiple batches will cause problem for you when retrieving grade. Multiple files can be selected by either highlighting them or pressing down CTRL key while selecting the files.
+</div>
+
+<br /><br />
+<h2>Submission Form</h2>
+<form action="http://ccvcl.org/~fhu/Assignments/Assignment_Submission_System/upload_file.php" method="post" enctype="multipart/form-data" name="sform" onsubmit="return validate();">
+<table>
+<tr>
+<td align="right"><label for="file">File(s) to submit:</label></td>
+<td><input class="inputbox" type="file" name="userfile[]" id="file" multiple/></td>
+</tr>
+<tr>
+<td align="right"><label for="lname">Last name:</label></td>
+<td><input class="inputbox" type="text" name="lname" id="lname" /></td>
+</tr>
+<tr>
+<td align="right"><label for="sid">Last 4 of student id:</label></td>
+<td><input class="inputbox" type="text" name="sid" id="sid" /></td>
+</tr>
+<tr>
+<td />
+<td><input type="submit" name="submit" value="Submit" /></td>
+</tr>
+</table>
+</form>
+
+</body>
+
+<!-- Mirrored from ccvcl.org/~fhu/Assignments/Assignment_Submission_System/upload.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Dec 2024 05:11:21 GMT -->
+</html>

@@ -1,0 +1,33 @@
+CSc 471 Computer Vision- Spring 2022			
+Professor Zhigang Zhu			
+Every Monday 2:00  - 4:30 pm,  The City College of New York			
+
+	Letter: A+: >=94; A: >=89; A- >=84; B+: >=80; B: >=75; B-: >=70; C+: >=65; C: >=60; F: <60										
+	10%	10%	10%	10%	3%	2%	40%	20%		105%	
+Name	HW1	HW2	HW3	HW4	ProposalBonus	Exam	Project		Final	Letter
+AI	90	65	85	85	3	1	84	93		88.7	A
+ANA	22	39	30	65	3	1	74	83		65.8	C+
+CAN	80	66	50	68	3	1	94	86		85.2	A-
+CDH	95	88	90	108	3		77	91		90.1	A
+CT	64	15	55	78	3	1	51	78		61.2	C
+CS	80	40	45	70	3	1	64	91		71.3	B-
+SLCNJ	82	92	95	85	3		81	97		90.2	A
+DD	90	66	70	50	3		71	85		76.0	B
+EMS										0.0	F
+FK	82	60	45	55	3		64	85		69.8	B-
+HS							66	78		42.0	F
+HR	77	65	45	90	3		64	86		73.5	B
+IKA	71	91	88	85	3		64	97		81.5	B+
+JD	95	93	65	90	3		79	88		86.5	A-
+KMMUI	38	43	30	60	3		64	88		63.3	C
+LJC	85	100	100	65	3	1	72	93		86.4	A-
+MJ	85	76	65	60	3	1	59	83		72.8	B-
+MS	90	71	85	41	3	1	69	93		78.9	B
+QMYF	55	27	45		3		64	91		59.5	C
+QL	90	96	100	95	3	1	58	91		83.5	A-
+TT	95	67	75	75	3	1	62	93		78.6	B+
+ZHL										0.0	F	
+
+Proposal: 3 before April 11; 2 before April 15; 1 before April 25.					
+Bonus: IC CAE Talks: 1-2 points					
+Letter: A+: >=94; A: >=89; A- >=84; B+: >=80; B: >=75; B-: >=70; C+: >=65; C: >=60; F: <60					

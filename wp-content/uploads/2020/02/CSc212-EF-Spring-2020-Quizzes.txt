@@ -1,0 +1,15 @@
+CSC 21200 - EF	Data Structures Quizzes
+MoWe 2:00PM-3:40PM, Shepard S-209, Spring 2020	
+
+Name	Q1	Q2	Q3	Q4	Q5	Q6	Q7	Q8	Q9	Q10	Q11	Q12AT	2	9	4	10	10	6	10	7	10	8	10	10AA	9	8	10	10	10	10	10	8	10	10	10	10AE	5	7.5	7	8	10	10	10	8	10	8	9	10CD	10	9.5	10	10	10	7	10	8	10	8	9	10DC	8	9.5	10	10	10	7		8	10	10	9	10DD	10	9.5	10	10	10	7	10	10	10	10	9	10FA	6	4	7	10		6	10	0	10	8	0	10FJ	8	9.5	10	10	10	9	10	9	10	9	10	10GN	7		5	0				0	0	0	0	HL	7	9.5	5	9	8	4	10	9	10	10	8	10HZ	8	9	10	7	10	10	10	4	10	10	9	10IK	10	10		10	10	10	10	9	10	10	10	10JK	5	4	10	2	2	2	10	9	10	0	9	10KA	8	9.5	7	10		8	10	8	10	9	9	10KW		2	10	2	10	7		0	0	0	0	LA	7	6	9	9	10	10	10	8	10	0	9	10LJ	9	7	6	7	10	10	10	9	10	10	9	10MB	2	8	8	2		2	10	4	10	8	8	10MC	7	9	10	10	10	6	10	9	10	10	8	10MS	7	9	5	8	5	6	10	9	10	10	7	10OL	5	3	8	9	10	5	10	9	10	9	9	10PS	8	9.5	10	0	10	9	10	8	10	10	9	10RA	8	9		9		6	10	7	10	10	7	10RJ	6	9	7	9	8	10	10	8	10	8	7	10SS	2	2		2		6	10	9	10	6	8	SD	10			10	10	10		0	10	0	0	10TA	8	6	7	9	10	7	10	9	10	8	8	10WC	9	9.5	10	10	10	5	10	7	10	8	9	10WY	8	8	7	10	10	10	10	8	10	10	8	10YA	8	8	9.5	8	10	7	10	9	10	10	10	10ZM	7	2	8	9	10	3	10	9	10	8	4	10ZA	8	6	2	8		10	10	3	10	8	7	10															
+
+
+Q1: Big-OQ2: Dynamic array usageQ3: Assignment Operator of the dynamic bag
+Q4. Linked List Insert at the Head
+Q5. Template Node
+Q6. Recursion in action (running stack)
+Q7. Class Attendance on 04/15
+Q8: Heap implementation
+Q9: Hash Table in Class
+Q10:Selectionsort Q11: Mergesort
+Q12: Final Quiz

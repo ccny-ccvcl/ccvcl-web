@@ -1,0 +1,35 @@
+The CUNY Graduate Center 				
+CSC 74030-1 (63185) and CNS 80300-1 (59866) Computer Vision and Image Processing				
+Time and Location: Wednesday 9:30 – 11:30 am, The CUNY Graduate Center				
+
+											Letter: A+: >=96; A: >=92; A- >=85; B+: >=80; B: >=75; B-: >=70; C+: >=65; C: >=60; F: <60										
+										
+	15%	15%	15%	4%	30%	1%	15%	10%	105%	
+Name	HW1	HW2	HW3	Bonus	Exam	Prop.	Pres.	Report	Final	Letter
+CM	82	90	94	4	76	1	10	8	83.0	B+
+CJ	77	65	60		84	0.5	10.5	8	71.8	B-
+DG	95	63	70	3	71	0.5	12	12	79.0	B
+FX	91	100	72	4	75	0.5	11.5	10	84.6	A-
+FVA	88		102		79	1	12.5	10	72.4	B-
+HER	100	100	93		83	1	13	14	92.2	A
+JAJ	82	95	85	2	57	1	14.3	15	83.7	B+
+LH	98	107	98	4	86	1	13	14	98.6	A+
+MAA									0.0	F
+SF	100	107	100	4	78	0.5	12.5	14	95.8	A+
+SX	100	107	102	2	78	0.5	11	12	91.3	A
+WB	94	100	80	2	74	1	11.5	14	87.1	A-
+YYJ	73	75	78		67	0.5	12.5	14	76.3	B
+YC	84	105	95	2	78	0.5	10	10	85.2	A-
+ZYH	81	66	98		72	1	12.5	10	78.5	B
+ZLZ	95	110	99	4	78	0.5	11	11	91.8	A
+ZXL	98	89	103	2	83	0.5	11	8	87.2	A-
+ZYN	90	95	95	4	77	0.5	11	11	87.9	A-
+TF	95	60	82	4	88	1	11.5	14	87.8	A-
+==================================================================================
+FULL	100	100	100	4	100	1	15	15	105.0	A+
+
+
+Bonus	Each of the two IC CAE talks: 1% or 2%	
+Proposal	1% before April 20, 0.5 before May 1	
+Presenation	15/15 grading, account to 15% for the final	
+Report	15/15 grading, but this is scaled to 10% for the final	

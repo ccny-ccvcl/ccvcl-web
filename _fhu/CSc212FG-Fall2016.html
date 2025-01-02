@@ -1,0 +1,547 @@
+<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+  
+<!-- Mirrored from ccvcl.org/~fhu/CSc212FG-Fall2016.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Dec 2024 03:26:51 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=windows-1252">
+    <meta name="GENERATOR" content="Mozilla/4.79 [en] (Windows NT 5.0;
+      U) [Netscape]">
+    <title>CSc21200 FG Fall 2016</title>
+    <meta name="author" content="Feng HU">
+    <meta name="description" content="CSc21200 Section FG, Fall 2016">
+  </head>
+  <body style="background-color: rgb(255, 255, 255);" alink="#EE0000"
+    bgcolor="#ff0000" link="#0000EE" text="#000000" vlink="#551A8B">
+    <b><font size="+3">Computer Science</font></b> <b><font
+        face="Helvetica, Arial, sans-serif">City College of New York</font></b>
+    <br>
+    <font size="+1">&nbsp;<small> </small><big>CSc21200</big></font><big>
+      Section FG <font size="+1"><big>Data Structures</big></font>,
+      Fall 2016</big><br>
+    <hr noshade="noshade">
+    <table border="0" cellspacing="8">
+      <caption><br>
+      </caption><tbody>
+      </tbody> <tbody>
+        <tr>
+          <td><b>Instructor:</b>&nbsp; <b><br>
+             <!-- TA<br>-->
+              Class Meets:<br>
+              Classroom:</b><br>
+            <b>Office Hours:<br>
+            </b><b>Office:</b> <br>
+            <b>Email:</b><br>
+          </td>
+          <td><b>Feng&nbsp; HU </b><br>
+            <!--Mr Wai L. Khoo &lt;khoo@cs.ccny.cuny.edu&gt;<br>-->
+            M,W&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 04:00-05:40PM<br>
+            <span style="color: rgb(255, 0, 0);">Shepard SH 75</span><br>
+            M/W:&nbsp; 3:00 pm - 4:00 pm<b><br>
+              NAC </b>8/210<br>
+            <b><a href="mailto:fhu@gradcenter.cuny.edu">fhu@gradcenter.cuny.edu</a></b><br>
+          </td>
+          <td><b>&nbsp;</b></td>
+          <td valign="middle"><br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr noshade="noshade">
+    <center>
+      <h2> <font color="#ff0000">Course Update Information&nbsp; </font><br>
+      </h2>
+    </center>
+    <ul>
+      <li><small><font size="+1"><small><span style="font-weight: bold;">August 29, 2016</span> (Monday</small></font></small><small><font
+            size="+1"><small><span style="font-weight: bold;">)</span></small></font></small><small><font
+            size="+1"><small>. First day of&nbsp; this class. <br>
+            </small></font></small></li>
+      <li><small><font size="+1"><small><span style="font-weight: bold;">August 31, 2016</span></small></font></small><small><font
+            size="+1"><small>.</small></font></small><small><font
+            size="+1"><small>&nbsp; </small></font></small><a
+         ><small><font
+              size="+1"><small><a href ="MinGW-tutorial.pdf">MinGW C++ Installation Tutorial</a></small></font></small></a><small><font
+            size="+1"><small> for Windows and Mac users. (For Mac users, the link of getting Xcode in Page 4 is outdated, you can download Xcode from Apple Store)</small></font></small>&nbsp;
+ 
+
+
+        <br>
+	<li><small><font size="+1"><small><span style="font-weight: bold;">September 14, 2016</span></small></font></small> Course discussion group is created in Piazza.<a href = "http://piazza.com/ccny.cuny/fall2016/csc21200">(link)</a></li>
+      </li>
+
+ <br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">September 19, 2016</span></small></font></small> Quiz 1 result now is available.<a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">(link)</a></li>
+      </li>
+
+ <br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">September 23, 2016</span></small></font></small> Assignment 1 score and comments are now available for download.<a href = "Assignments/Assignment_Submission_System/download.html">(link)</a></li>
+      </li>
+
+ <br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">September 26, 2016</span></small></font></small> Quiz 2 result now is available.<a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">(link)</a></li>
+      </li>
+
+ <br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">October 5, 2016</span></small></font></small> Quiz 3 result and assignment 1 score now are available.<a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">(link)</a></li>
+
+ <br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">October 13, 2016</span></small></font></small> Exam 1 result and assignment 2 score now are available.<a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">(link)</a></li>
+
+
+ <br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">October 19, 2016</span></small></font></small> Attendance for Oct.17 and Oct. 19 now are available.<a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">(link)</a></li>
+
+ <br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">October 29, 2016</span></small></font></small> Assignment 3 score and comments now are available.<a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">(link)</a></li>
+
+ <br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">November 1, 2016</span></small></font></small> Assignment 4 score and comments now are available.<a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">(link)</a></li>
+
+ <br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">November 9, 2016</span></small></font></small> Exam 2 results now are available.<a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">(link)</a></li>
+
+ <br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">November 22, 2016</span></small></font></small> Quiz results(11/14/2016 and 11/21/2016) now are available.<a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">(link)</a></li>
+
+<br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">December 4, 2016</span></small></font></small> Assignment 5 score and comments now are available.<a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">(link)</a></li>
+
+<br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">December 10, 2016</span></small></font></small> Assignment 6 score and comments now are available.<a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">(link)</a></li>
+
+
+<br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">December 13, 2016</span></small></font></small> Exam 3 results and Quiz 6 score now are available.<a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">(link)</a></li>
+
+<br>
+ <li><small><font size="+1"><small><span style="font-weight: bold;">December 19, 2016</span></small></font></small> Final <a href = "Assignments/Quiz/Quiz_Scores_CSc212FG_2016.xlsx">SCORE </a> is available now, and this is the <a href = "Sample_Code_CSc212/CSc212FG_2016_final_grade_calculator.cpp">CODE</a> used to calculate your final score in terms of ABCDF.</li>
+
+      </li>
+
+    </ul>
+    <ul>
+    </ul>
+    <hr size="2" width="100%">
+    <h2><br>
+    </h2>
+    <h2>Course Objectives</h2>
+    This course teaches the basic techniques to orgranize data in
+    running programs.&nbsp; You will know about well-known data
+    structures as listed in the <i>Quick Syllabus</i>. You will be able
+    to <br>
+    <blockquote>(1) implement these structures as classes in C++; <br>
+      (2) determine which structures are appropriate in various
+      situations; <br>
+      (3) confidently learn new structures beyond what are presented in
+      this class.&nbsp; <br>
+    </blockquote>
+    You will also learn part of object-oriented programming and software
+    development methodology. <br>
+    &nbsp;
+    <table border="1" cellpadding="8" align="right">
+      <caption align="top"><b>Quick Syllabus</b> <br>
+      </caption><tbody>
+      </tbody> <tbody>
+        <tr>
+          <td><b>To become a Data Structures Expert&nbsp;</b> <br>
+            <b>start by learning...</b>
+            <li> Precondition/Postcondition specifications&nbsp;</li>
+            <li> Time analysis techniques&nbsp;</li>
+            <li> Container classes&nbsp;</li>
+            <li> Pointers and dynamic arrays&nbsp;</li>
+            <li> Linked lists&nbsp;</li>
+            <li> Templates and iterators&nbsp;</li>
+            <li> Stacks&nbsp;</li>
+            <li> Queues&nbsp;</li>
+            <li> Recursive thinking&nbsp;</li>
+            <li> Trees&nbsp;</li>
+            <li> Sorting and searching techniques</li>
+            <li>&nbsp;Graphs<br>
+            </li>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2> Textbook and References</h2>
+    <b>Textbook: </b><i>Data Structures and Other Objects Using C++</i>,&nbsp;
+
+    Fourth Edition, by <a href="http://www.cs.colorado.edu/~main/">Michael
+
+      Main </a>and <a href="http://cseweb.ucsd.edu/users/savitch/">Walter
+
+
+      Savitch </a>, Addison Wesley, softcover. <br>
+    <p><b>Supplements:</b>&nbsp; The Code for the Book and the
+      Corrections for the Text will be useful and can be found by
+      clicking <a href="http://www.cs.colorado.edu/~main/dsoc.html">here</a>.
+    </p>
+    <p><b>References:</b> Lots of good sample codes are found in
+      CSc102's <i><a>C++
+
+
+
+
+
+How to Program</a></i> by Dietel &amp; Dietel, 3rd Ed., Prentice
+      Hall 2001. This course involves some of C++ language details that
+      could be found in this book. </p>
+    <h2> Prerequisites</h2>
+    CSc103 (<i>Introduction to Computing</i> to CS and CpE Majors) and
+    CSc104 (<i>Discrete Mathematical Structure I</i>).&nbsp;<b> </b>You
+    should feel confident in your ability to design and implement simple
+    programs using arrays and functions. As a rough guideline, all the
+    materials before Chapter 5 (Pointers and Strings) of <i>C++ How to
+      Program</i> by Dietel &amp; Dietel are assumed to be understood.
+    You should be familiar with some programming environment--either a
+    PC or a Unix system.
+    <h2> Schedule</h2>
+    The following schedule is based on Fall 2016 <a
+href="http://www.ccny.cuny.edu/registrar/upload/Fall-2015-Academic-Calendar.pdf">academic
+
+      calendar</a>: <br>
+    <table border="1">
+      <caption><br>
+      </caption><tbody>
+      </tbody> <tbody>
+        <tr>
+          <td><b>Date</b></td>
+          <td><b>Planned Lecture Topics</b></td>
+          <td><b>Read/Assign/Exam</b></td>
+        </tr>
+	
+        <tr>
+          <td> Aug 29 (M) <br>
+            Aug 31 (W)</td>
+          <td><a href="Lecture01-Introduction.pdf">Lecture 1</a>.
+            Introduction &amp; Software Development <br>
+            <a href="Lecture02-Classes(I).pdf">Lecture 2</a>.
+            ADT &amp; C++ Classes<a>
+            </a>&nbsp;(<a href="Sample_Code_CSc212/Lecture_2_code/point-ppt.html">code</a>)<a><b><span
+                  style="color: rgb(255, 0, 0);"></span></b><span
+                style="font-weight: bold; color: rgb(204, 51, 204);"></span></a>&nbsp;   <br>
+          </td>
+          <td>Ch. 1 <br>
+            <span style="font-weight: bold;"></span>Ch 2.1-2.3;&nbsp; <a href = "CSC212-2016-assignment1.html"><span
+                style="font-weight: bold;">Assignment 1</span></a><br>
+            <span style="font-weight: bold;"></span></td>
+        </tr>
+	
+        <tr>
+          <td>Sep 05 (M ) <br>
+            Sep 07 (W)&nbsp; <br>
+          </td>
+	  
+          <td>&nbsp;<b><span style="color: rgb(255, 0, 0);">Labor Day;
+                college is closed - no class!</span></b><br
+           > <a href = "Lecture03-Classes(II).pdf">Lecture 3</a>. More Classes and Operator Overloading<span style="color:
+              rgb(255, 0, 0);">&nbsp;</span> </td>
+          <td><span style="font-weight: bold;"></span><a href = "Lecture03-Classes(II).pdf"><span
+                style="font-weight: bold;"></span></a><br>
+            Ch 2.4-2.5&nbsp; </td>
+        </tr>
+	
+        <tr>
+          <td>Sep 12 (M) <br>
+            Sep 14 (W)&nbsp;</td>
+          <td><span style="font-weight: bold; color: rgb(153, 0, 0);"></span><a href = "Lecture04-05-Container.pdf"
+             >Lecture 4/5</a>.&nbsp;Container
+
+            Classes&nbsp;<a href="Sample_Code_CSc212/Lecture4_Sample_Code/bag-ppt.html">(code)</a>
+	    <br>
+            <b><span style="color: rgb(255, 0, 0);"> </span></b><a href = "Lecture06--07-Pointers.pdf">Lecture
+            6</a>. Pointers and Dynamic Arrays (I) &nbsp; <a
+              ></a><br>
+          </td>	  
+          <td>Ch 3, <a href = "Assignments/Assignment_2/CSC212-2016-assignment2.html"><span
+                style="font-weight: bold;">Assignment 2</span><span
+                style="font-weight: bold;"></span></a><br>
+            Ch 4.1 - 4.2<span style="font-weight: bold;"></span> </td>
+        </tr>
+	
+        <tr>
+          <td>Sep 19 (M) <br>
+            Sep 21 (W)</td>
+          <td>Lecture 7. Pointers and Dynamic Arrays (II) (<a href = "Sample_Code_CSc212/Lecture_7_Sample_Code/point3-ppt.html">point code with
+              pointers</a>)
+	    <br>
+	    <a href ="Lecture08-DynamicBags.pdf">Lecture 8</a><a>.</a> Dynamic
+            Classes and the Big Three (<a href = "Sample_Code_CSc212/Lecture_8_Sample_Code/bag2-ppt.html">code</a>)<b><span
+                style="color: rgb(255, 0, 0);">&nbsp;</span></b>&nbsp;
+	  </td>
+          <td>Ch. 4.2 - 4.5 <span style="font-weight: bold;"><br>
+            </span><br>
+	    <a href = "Assignments/Assignment_3/CSC212-2016-assignment3.html"><span
+                style="font-weight: bold;">Assignment 3</span></a><span
+              style="font-weight: bold;">
+          </td>
+        </tr>
+	
+        <tr>
+          <td>Sep 26 (M) <br>
+            Sep 28 (W)</td>
+          <td>
+            <small><font size="+1"><small><a href="ExamReview1-2016.pdf"><b>Exam Review 1</b></a>
+                  &nbsp; &nbsp; </small></font></small><font
+              color="#33cc00"></font><span style="color: rgb(255, 0,
+						  0);"></span>
+	    <br><b>First Exam</b> (Chapters 1-4)
+	  </td>
+          <td><br>
+              <br>
+            </span> </td>
+        </tr>
+
+	
+        <tr>
+          <td>Oct 06 (T) <br>
+            Oct 05 (W)&nbsp;</td>
+          <td><a href="Lecture10-LinkedListBags.pdf">Lecture 10</a>. Building &amp;Using the Linked List Toolkit&nbsp; (<a href = "Sample_Code_CSc212/Lecture_10_Sample_Code/bag3-ppt.html">code</a>)&nbsp; &amp; <span
+              style="font-weight: bold;">Exam 1 Discussions</span>&nbsp;
+            <b><span style="color: rgb(255, 0, 0);"></span></b><b></b> <br>
+            <a href="Lecture09-LinkedLists.pdf">Lecture 9</a>.&nbsp;
+Linked Lists (<a href="Sample_Code_CSc212/Lecture_9_Sample_Code/node1-ppt.html">code</a>) <b><span
+                style="color: rgb(255, 0, 0);"></span></b><span
+              style="color: rgb(255, 0, 0);"></span> </td>
+          <td> Ch. 5.3 - 5.5, <a href = "Assignments/Assignment_4/CSC212-2016-assignment4.html"><span
+                style="font-weight: bold;">Assignment 4</span></a> <br>
+            <a><span
+                style="font-weight: bold;"></span></a>Ch. 5.1-5.2<span
+              style="font-weight: bold;"></span> </td>
+        </tr>
+	
+        <tr>
+          <td>Oct 10 (M) <br>
+            Oct 12 (W)&nbsp;</td>
+          <td><b><span style="color: rgb(255, 0, 0);">Columbus Day: college is closed - no class! </span></b> <br>
+           <b><span style="color: rgb(255, 0, 0);"> No class scheduled </span></td>
+          <td><span style="font-weight: bold;"></span><br>
+            </td>
+        </tr>
+
+        <tr>
+          <td>Oct 17 (M) <br>
+            Oct 19 (W)&nbsp;</td>
+          <td><a href = "Lecture11-Templates.pdf">Lecture 11</a>.
+            Software Development using Templates and Iterators <a href = "Sample_Code_CSc212/Lecture_11_Sample_Code/bag5-ppt.html">(code: bag4&&5</a> <a href = "Sample_Code_CSc212/Lecture_11_Sample_Code/node2-ppt.html">, node2) </a><br>
+            Lecture 11a. Software Development using Templates and
+            Iterators (cont.)<small><font size="+1"><small>&nbsp;</small></font></small>
+          </td>
+          <td>Ch. 6&nbsp;<br>
+          </td>
+        </tr>
+	
+        <tr>
+          <td>Oct 24 (M) <br>
+            Oct 26 (W)&nbsp;</td>
+          <td><a href= "Lecture12-StackQueue.pdf"> Lecture 12</a>.
+            Stacks(<a href = "Sample_Code_CSc212/Lecture_12_Sample_Code/stack-ppt.html">code</a>) and Queues (<a href = "Sample_Code_CSc212/Lecture_12_Sample_Code/queue-ppt.html">code</a>)
+           &nbsp;&nbsp;<br>
+           <a href = "Lecture13-Recursion.pdf">Lecture 13</a>.
+            Introduction to Recursion
+          </td>
+          <td>Ch. 7, Ch. 8
+            <br>Ch. 9.1,&nbsp; <a href = "Assignments/Assignment_5/CSC212-2016-assignment5.html"><span
+                style="font-weight: bold;">Assignment 5</span></a><span
+              style="font-weight: bold;"></span>
+          </td>
+        </tr>
+	
+        <tr>
+          <td>Oct 31 (M) <br>
+            Nov 02 (W) <br>
+          </td>
+          <td><a href= "Lecture14-Recursion.pdf">Lecture 14</a>.
+            Using and Reasoning about Recursion&nbsp; <br>
+            <b><a href="ExamReview2-2016.pdf">Exam Review 2</a></b><a>&nbsp;&nbsp;</a> </td>
+          <td>Ch. 9.2 - 9.3<br>
+            <br>
+          </td>
+        </tr>
+	
+        <tr>
+          <td>Nov 07 (M) <br>
+            Nov 09 (W)&nbsp;</td>
+          <td> <b>Second Exam </b>(Chapters 5-9) <span style="color:
+              rgb(255, 0, 0);"><font color="#33cc00"></font></span><br>
+            <a href="Lecture15-Trees.pdf">Lecture 15</a>. Trees
+            and Traversals (<a href = "Sample_Code_CSc212/Lecture_15_Sample_Code/tree-ppt.html">code</a>)&nbsp;&nbsp;<span
+              style="color: rgb(255, 0, 0);"><font color="#33cc00"></font></span>
+          </td>
+          <td><br>
+            Ch. 10.1-10.4 <br>
+          </td>
+        </tr>
+	
+        <tr>
+          <td>Nov 14 (M) <br>
+            Nov 16 (W)&nbsp;</td>
+          <td><a href="Lecture16-BSTrees.pdf">Lecture 16</a>.
+            Binary Search Trees and the Bag Class with a BST<span
+              style="font-weight: bold;"><br>
+            </span><a href="Lecture17-B-Trees.pdf">Lecture 17</a>.
+            B-Trees and Set Class<a href = "Sample_Code_CSc212/Lecture17_Sample_Code/set.h">(code)</a> <span
+              style="font-weight: bold;">Exam 2 Discussions (code: <a href = "Sample_Code_CSc212/Exam_2_Sample_Code/Reverse_List_withNode2.cpp">P1 </a> <a href = "Sample_Code_CSc212/Exam_2_Sample_Code/Queue_withStacks.cpp">P2)</a></span>&nbsp;&nbsp;<font
+              color="#33cc00"></font></td>
+          <td>Ch. 10.5<font size="+1">, </font><a href = "Assignments/Assignment_6/CSC212-2016-assignment6.html"><span
+                style="font-weight: bold;">Assignment 6</span></a><br>
+            Ch. 11.2<span style="font-weight: bold;"></span> </td>
+        </tr>
+	
+        <tr>
+          <td>Nov 21 (M) <br>
+            Nov 23 (W) <br>
+          </td>
+          <td><span style="font-weight: bold;"> </span>Lecture 18.
+            <a href = "Lecture18-Heaps.pdf">Heaps and Priority Queue </a> ; <a href = "Lecture18-II-TreeBigO.pdf">Time Analysis of Trees </a> <span
+              style="font-weight: bold;"><span style="color: rgb(255, 0,
+                0);"></span> </span><br>
+            <a href = "Lecture19-Searching.pdf">Lecture 19</a>.
+            Serial Searching and Binary Searching&nbsp; </td>
+          <td><span style="font-weight: bold;"></span> Ch. 11.1, 11.3 <br>
+            Ch. 12.1-12.3<br>
+          </td>
+        </tr>
+        <tr>
+          <td>Nov 28 (M)<br>
+            Nov 30 (W)<br>
+          </td>
+          <td><a href = "Lecture20-Hashing.pdf">Lecture 20.
+           </a> Hashing <br>
+            <a href = "Lecture21-Sorting.pdf">Lecture 21.
+            </a>Quadratic Sorting<br>
+          </td>
+          <td>Ch. 12.4<br>
+            Ch. 13.1 <br>
+            <span style="font-weight: bold;"></span> </td>
+        </tr>
+	
+        <tr>
+          <td valign="top">Dec 05 (M)<br>
+            Dec 07 (W) <br>
+          </td>
+          <td valign="top"><a href = "Lecture22-Sorting-II.pdf">Lecture
+              22</a>. Recursive Sorting , Heapsort &amp; the STL
+            Quicksort <a href = "Sample_Code_CSc212/Lecture22_Sample_code/sort-code.html">(code)</a><br>
+            <a href = "Lecture23-Graphs.pdf">Lecture 23</a>. Graph
+            Basics; &nbsp; <a href= "ExamReview3-2016.pdf"><b>Exam Review 3</b></a><b><a></a> </b><font
+              color="#33cc00"></font> </td>
+          <td valign="top">Ch. 13.2-13.4<br>
+            Ch. 15<br>
+          </td>
+        </tr>
+        <tr>
+          <td>Dec 12 (M) <br> Dec 14 (W)</td>
+          <td><span style="font-weight: bold;"></span><span
+              style="font-weight: bold;">Third Exam</span><font
+              style="font-weight: bold;" color="#ff0000"> (mainly Ch
+              10-13, 15)&nbsp; </font><span style="color:
+              rgb(255, 0, 0);"></span> <br> (Optional) Exam 3 Office Hour (NAC 8/210, 3pm-6pm)</td>
+          <td><br>
+            <br>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br>
+    <hr noshade="noshade">
+    <h2>Assignments and Grading</h2>
+    See syllabus above for the tentative timetable for a schedule. There
+    will be <b>six to seven programming assignments</b> distributed
+    roughly every two weeks (counted roughly 30% of your final
+    grade).&nbsp; Several in-class small quizzes will add up to 10 % of
+    your final grade. There will be <b>three in-class exams</b> (60% of
+    your final grade). Dates of these exams will be determined in due
+    times and announced beforehand.
+    <p><b>Policies:&nbsp;</b> Students may discuss ideas together. But
+      since each student get credits for his or her submissions, all
+      actual program code and written answers must be done individually
+      by each student, and must not be shared. </p>
+    <p><b>Communications:</b> I would like the course to run smoothly
+      and enjoyably. Feel free to let me know what you find good and
+      interesting about the course. Let me know as soon as possible
+      about the reverse. You may see me in my office during my hours or
+      send me messages by e-mail. </p>
+    <h2> Computing Facilities</h2>
+    The language used for this class is ANSI Standard C++ as supported
+    by today's available compilers. Variety of PC based (both Windows
+    and Linux) C++ compilers are available, also publicly accessible at
+    our <a href="http://www.ccny.cuny.edu/compsci/computer-labs.cfm">Student
+
+
+
+
+
+Computer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      Labs</a>.
+    <p> </p>
+    <p> </p>
+    <hr noshade="noshade">Copyright @<a>
+      Feng HU</a>,
+    City College of New York, Fall 2016<br>
+    <br>
+    <br>
+  </body>
+
+<!-- Mirrored from ccvcl.org/~fhu/CSc212FG-Fall2016.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Dec 2024 03:40:30 GMT -->
+</html>

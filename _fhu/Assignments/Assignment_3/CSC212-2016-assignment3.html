@@ -1,0 +1,201 @@
+<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+  
+<!-- Mirrored from ccvcl.org/~fhu/Assignments/Assignment_3/CSC212-2016-assignment3.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Dec 2024 04:58:16 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=windows-1252">
+    <meta name="GENERATOR" content="Mozilla/4.79 [en] (Windows NT 5.0;
+      U) [Netscape]">
+    <title>Assignment 3- sequence Class (Ch 4)</title>
+  </head>
+  <body>
+    <b><font size="+3">Computer Science </font><font face="Helvetica,
+        Arial, sans-serif">City College of New York</font></b> <br>
+    <font size="+1">&nbsp; CSc21200</font> <font size="+1">Data
+      Structures</font>, Fall 2016
+    <hr noshade="noshade">
+    <h2> Programming Assignment 3:&nbsp; <u>Revise the sequence Class
+        to Use a Dynamic Array (Chapter 4)</u></h2>
+    <b>Modified from projects of Chapter&nbsp; 4&nbsp; at
+      www.cs.colorado.edu/~main/projects/</b> <br>
+    <b>of Data Structures and Other Objects Using C++&nbsp; by <a
+        href="http://www.cs.colorado.edu/~main/">Michael Main </a>and
+      <a href="http://cseng.awl.com/authordetail.qry?AuthorID=355">Walter
+
+
+        Savitch</a></b>
+    <h2>
+      <hr></h2>
+    <dl>
+      <dt> <b>The Assignment:</b></dt>
+      <dd> You will implement and test a revised sequence class that
+        uses a dynamic array to store the items.</dd>
+      <dt> <b>Purposes:</b></dt>
+      <dd> Ensure that you can write a small class that uses a dynamic
+        array as a private member variable.</dd>
+      <dt> <b>Before Starting:</b></dt>
+      <dd> Read all of Chapter 4 (textbook or slides).</dd>
+      <dt> <b>Due Date:</b></dt>
+      <blockquote> <dt><span style="font-weight: bold;">Wednesday, Oct
+            12, 2016</span>. If you have problems, late work will be
+          accepted on Friday with no penalties. Late work may be
+          submitted on Saturday with 5% penalty per day. No
+          work will be accepted after Saturday.</dt>
+      </blockquote>
+      <dt> <b>How to Turn In:</b></dt>
+      <blockquote> <dt> Please submit homeworks using <a
+            href="../Assignment_Submission_System/upload.html">this link</a>.
+          On the upload page, you can select the file(s) you want to
+          submit (multiple files can be selected by pressing down CTRL
+          key while selecting the files). Then enter your last name and
+          the last 4 digit of your student ID (from CUNYfirst, NOT your
+          SSN!!!). Once successfully submitted, it will show a page with
+          RECEIPT NUMBER, save that number or that page because you will
+          need it to retrieve your grade for that assignment. You can
+          submit your assignment as many times as you want before the
+          deadline, only the latest one will be graded.<br>
+          <br>
+          To retrieve your grade for an assignment (after I finish
+          grading it), please go to the download page <a href = "../Assignment_Submission_System/download.html"
+            >here</a>,
+          select the assignment, enter the receipt number for that
+          assignment, your last name and your last 4 digit of your
+          student ID. The page will then download a TXT file which
+          contain your graded submission.</dt>
+      </blockquote>
+      <dt> <b>Files that you must write and turn in (Please do not turn
+          in other files!!):</b></dt>
+      <ol>
+        <li> sequence<tt>2.h:</tt> The header file for the new sequence
+          class. Actually, you don't have to write much of this file.
+          Just start with <a href="sequence2.h">our version </a>and
+          add your name and other information at the top. If some of
+          your member functions are implemented as inline functions,
+          then you may put those implementations in this file too. By
+          the way, you might want to compare this header file with your
+          first sequence header file <a href="sequence1.h">(sequence1.h)
+
+          </a>. The new version no longer has a CAPACITY constant
+          because the items are stored in a dynamic array that grows as
+          needed. But there is a DEFAULT_CAPACITY constant, which
+          provides the <i>initial</i> size of the array for a sequence
+          created by the default constructor.</li>
+        <li> sequence<tt>2.cxx:</tt> The implementation file for the new
+          sequence class. You will write all of this file, which will
+          have the implementations of all the sequence's member
+          functions.</li>
+      </ol>
+      <dt> <b>Other files that you may find helpful (but you do not
+          need to turn in):</b></dt>
+      <ol>
+        <li> <tt><a href="sequence_test.cxx">sequence_test.cxx</a></tt>:
+          This is in fact the same interactive test program that you
+          used with the earlier sequence. If you want to use it with the
+          new sequence, then copy it to your directory and open it with
+          your editor. Then change the statement</li>
+        <br>
+        <tt>#include "</tt>sequence<tt>1.h"</tt> <br>
+        to <br>
+        <tt>#include "</tt>sequence<tt>2.h"</tt>
+        <p><tt>And change the statement</tt> <br>
+          <tt>using namespace main_savitch_3</tt> <br>
+          <tt>to</tt> <br>
+          <tt>using namespace main_savitch_4</tt> </p>
+        <li> <tt><a href="seq_ex2.cxx">seq_ex2.cxx</a></tt>: A
+          non-interactive test program that will be used to grade the
+          correctness of your new sequence class.<span
+            style="font-weight: bold;"> If you use MinGW, please use </span><a
+            style="font-weight: bold;" href="seq_ex2_MinGW.cxx"><tt>seq_ex2_MinGW.cxx</tt></a>
+          <hr></li>
+      </ol>
+    </dl>
+    <hr>
+    <h3> The sequence Class Using a Dynamic Array<br>
+      Discussion of the Assignment</h3>
+    Your sequence class for this assignment will differ from the your
+    previous sequence in the following ways:
+    <ul>
+      <li> The number of items which may be stored in the sequence
+        should only be limited by the amount of memory available on the
+        heap. When new items are added to a sequence which is at
+        capacity, the size of the data array in which items are stored
+        should be automatically enlarged.</li>
+      <li> Because you are dynamically allocation memory within your
+        sequence class, you will need to define a copy constructor, an
+        assignment operator, and a destructor.</li>
+      <li> The constructor should have a default argument which allows
+        the user to set the initial capacity of the sequence.</li>
+      <li> There should be a resize function that allows the user to
+        explicitly set the the capacity of the sequence.</li>
+    </ul>
+    Start by declaring the new sequence's private member variables in
+    sequence2.h. This should include the dynamic array (which is
+    declared as a pointer to a value_type). You will also need two
+    size_type variables to keep track of the number of items in the
+    sequence and the total size of the dynamic array. After you've
+    declared your member variables, write an invariant for the top of
+    sequence2.cxx.
+    <p>Many of the features of this class are similar to the <b>bag</b>
+      class from Section 4.3, so start by thoroughly reading Section 4.3
+      and pay attention to new features such as how the sequence differs
+      from a bag (see page 119). Also the implementation of some of the
+      functions are almost the same as in Part 1. Once again, do your
+      work in small pieces. For example, my first version of the
+      sequence had only a constructor, start, insert, advance, and
+      current. My other member functions started out as stubs. </p>
+    <p>Use the interactive test program and the debugger to track down
+      errors in your implementation. If you have an error, <i>do not
+        start making changes until you have identified the cause of the
+        error.</i> </p>
+    <p><i>The ability to initialize and use a static member constant
+        within the class definition is a relatively new feature. If you
+        have an older compiler</i><i> (for example, Visual C++ 6.0)</i><i>
+        that does not support static const members, then you may use</i>
+    </p>
+    <p><i>enum {DEFAULT_CAPACITY = 30};</i> </p>
+    <p><i>instead of</i> </p>
+    <p><i>static const size_type DEFAULT_CAPACITY = 30;</i> </p>
+    <p><i>After&nbsp; this definition, the name bag::DEFAULT_CAPACITY is
+        defined to have the integer value 30. Although this is not the
+        intended use of an enum definition, the result is the same as
+        using a static member constant (see more discussions at page 99
+        in the textbook).</i> </p>
+    <p>When a member functions needs to increase the size of the dynamic
+      array, it is a good idea to increase that size by at least 10%
+      (rather than by just one item). <br>
+      &nbsp; </p>
+    <h3> The sequence Class Using a Dynamic Array<br>
+      *Optional Part of the Assignment (for extra 10% points )</h3>
+    You may wish to provide some additional useful member functions,
+    such as <br>
+    (1) Operators + and +=.. For + operator, x+y contains all the items
+    of x, followed by all the items in y. The statement x += y appends
+    all the items in y to the end of what's already in x. <br>
+    (2) Operator []. For a sequence x, we would like to be able to refer
+    to the individual items using the usual C++ notation for arrays. For
+    example, if x has three items, then we want to be able to write
+    x[0], x[1] and x[2] to access these three items. The use of the
+    square brackets is called the subscript operator. The subscript
+    operator may be overloaded as a member function, with the prototype
+    shown here as part of the sequence class:
+    <p>class sequence <br>
+      { <br>
+      public: <br>
+      &nbsp;&nbsp;&nbsp; ... <br>
+      &nbsp;&nbsp;&nbsp; value_type operator[](size_type index) const; <br>
+      &nbsp;&nbsp;&nbsp; ... <br>
+      }; </p>
+    <p>The only parameter is the index of the item we want to retrieve.
+      The implementation of this member function should check that the
+      index is valid, and then return the specified item. <br>
+    </p>
+    <hr> <a>Feng HU</a>
+    ( <a>fhu@gradcenter.cuny.edu</a> ),
+    2016
+    <address> </address>
+    <hr>
+  </body>
+
+<!-- Mirrored from ccvcl.org/~fhu/Assignments/Assignment_3/CSC212-2016-assignment3.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Dec 2024 04:58:18 GMT -->
+</html>

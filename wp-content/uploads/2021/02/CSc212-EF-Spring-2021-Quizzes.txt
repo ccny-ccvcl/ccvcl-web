@@ -1,0 +1,8 @@
+CSC 21200 - EF	Data Structures Quizzes
+MoWe 2:00PM-3:40PM,  Spring 2021	
+
+Name	Q1	Q2	Q3	Q4	Q5	Q6	Q7	Q8	Q9	Q10	Q11	Q12	Q13	Q14ASR	6	5	9	8	4			9		7	7			AYA		8	4	10	7	8	9	10	9	10	10	7	8	10CM	6	3	8	6	2	3		10	3		10	10		10FM	10	5	4	9		2		10			0	2	7	10GAPA	10	8	7	9	6.5									HJ	3	3			1	10								HRM	6	9	10	10	4	3	10	10	3	8	10	7	9.5	10IKM	5	6	6				7				5		7	10KT	10	8	6	9	1	10	7	7			0			MJBV	9	9	7	7	2	3		10	8		10	6	5	10ML	9	3	6	10	6	10	10	10	6		5	9		10MTE	6	5	8	10	2			10	5	4	10	8	7	10NA	8	7	8	10	7	10	10	10	9	10	10	10	2	10NP	8	6	6	5	3	9	10	2	9	6	10	9.5	10	10NA														OJ	10	6	7	4	1	5		10	2	10	10	7	10	10PM														RJ		2	7		1					8		10		10SM	10	10	8	10	10	6	10	10	8	9	10	6	7	10SR	2	5	3	7	3	9	5	2	10		10	8	6	10SCPB				5	4									SP	8	3	3	4	10	9	7	10	2	10	10	6	10	10SY	10	4	8	10	9	10	10	10	8	9	10	7	8	10SOO	8	7	8	8	2	10	10	10		7	10		7	10TF	7	6	8	9		10	7	10	8	10	0	10	7	10TI	8	7	8	5	1	2	4	10	5		10	9	7	10WY	8	2	5	9	3	2		8		6	10	7		10
+
+Q1: From #s of operations to Big-OQ2: Big-O of a for loopQ3: Bag class insert function implementationQ4: Dynamic array usageQ5: Assignment Operator with dynamic memoryQ6: Insert a node at the head of a linked listQ7 Use of the Template NodeQ8:  Recursion in a member functionQ9: Heap implementation: pushQ10. Binary Search reimplementationQ11: Hash Table in Class (10: responded; 5: in class but no responses; 7: one response; 0: not present)
+Q12: Selectionsort implementation
+Q13: Merge Function in MergesortQ14: Final Quiz: A Quick Survey

@@ -1,0 +1,9 @@
+@inproceedings{HuIEEEIoTJournal,
+  title={A Crowdsource-based Sensing System for Monitoring Fine-grained Air Quality in Urban Environments},
+  author={Jingchang Huang and Ning Duan and Peng Ji and Chunyang Ma and Feng Hu and Yuanyuan Ding and Yipeng Yu and Qianwei Zhou and Wei Sun},
+  booktitle={IEEE Internet of Things Journal},
+  volume={},
+  pages={},
+  year={November, 2018}
+}
+

@@ -1,0 +1,127 @@
+<!DOCTYPE doctype PUBLIC "-//w3c//dtd html 4.0 transitional//en">
+<html>
+  
+<!-- Mirrored from ccvcl.org/~fhu/Assignments/Assignment_5/CSC212-2016-assignment5.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Dec 2024 04:58:40 GMT -->
+<head>
+    <meta http-equiv="Content-Type" content="text/html;
+      charset=windows-1252">
+    <meta name="GENERATOR" content="Mozilla/4.79 [en] (Windows NT 5.0;
+      U) [Netscape]">
+    <title>Assignment 5 - Recursive Thinking (Chapter 9)</title>
+  </head>
+  <body>
+    <b><font size="+3">Computer Science </font><font face="Helvetica,
+        Arial, sans-serif">City College of New York</font></b> <br>
+    <font size="+1">&nbsp; CSc212</font>00 <font size="+1">Data
+      Structures</font> Fall 2016
+    <hr noshade="noshade">
+    <h2> Programming Assignment 5&nbsp; (Chapter 9) - Recursive Thinking</h2>
+    <h3> Adapted from Data Structures and Other Objects Using C++ <br>
+    </h3>
+    <h3><b><b>by <a href="http://www.cs.colorado.edu/~main/">Michael
+            Main </a>and <a
+            href="http://cseweb.ucsd.edu/users/savitch/">Walter Savitch</a></b></b></h3>
+    <hr>
+    <dl>
+      <dt> <b>The Assignment:</b></dt>
+      <dl>
+        <dt> You will implement and test four short recursive functions.
+          With the proper use of recursion, none of these function
+          should require more than a dozen lines of code.</dt>
+      </dl>
+      <dt> <b>Purposes:</b></dt>
+      <dd> Ensure that you can write and test small recursive functions.</dd>
+      <dt> <b>Before Starting:</b></dt>
+      <dd> Read all of Chapter 9, especially Sections 9.1 and 9.3.</dd>
+      <dt> <b>Due Date:</b></dt>
+      <blockquote> <dt><span style="font-weight: bold;"> Wednesday,
+            November 9, 2016</span>. If you have problems, late work
+          will be accepted on Tursday with no penalties. Late work may
+          be submitted on Friday or Saturday with 5% penalty per day. No
+          work will be accepted after Saturday.</dt>
+      </blockquote>
+      <dt> <b>How to Turn In:</b></dt>
+      <blockquote> <dt> Please submit homeworks using <a
+            href="../Assignment_Submission_System/upload.html">this link</a>.
+          On the upload page, you can select the file(s) you want to
+          submit (multiple files can be selected by pressing down CTRL
+          key while selecting the files). Then enter your last name and
+          the last 4 digit of your student ID (from CUNYfirst, NOT your
+          SSN!!!). Once successfully submitted, it will show a page with
+          RECEIPT NUMBER, save that number or that page because you will
+          need it to retrieve your grade for that assignment. You can
+          submit your assignment as many times as you want before the
+          deadline, only the latest one will be graded.<br>
+          <br>
+          To retrieve your grade for an assignment (after I finish
+          grading it), please go to the download page <a>here</a>,
+          select the assignment, enter the receipt number for that
+          assignment, your last name and your last 4 digit of your
+          student ID. The page will then download a TXT file which
+          contain your graded submission.</dt>
+      </blockquote>
+      <dt> <b>Files that you must write and turn in:</b></dt>
+      <dl>
+        <dt> <tt>rec_fun.cxx:</tt> This file should contain the
+          implementations of the four functions described below. You
+          might also want to put the functions prototypes in a separate
+          file rec_fun.h and write a test program that includes
+          rec_fun.h.</dt>
+      </dl>
+    </dl>
+    <hr>
+    <h4> 1. One Binary Number</h4>
+    Write a function with this prototype:
+    <pre>&nbsp; void binary_print(ostream&amp; outs, unsigned int n);</pre>
+    The function prints the value of n as a BINARY number to the ostream
+    outs. If n is zero, then a single zero is printed; otherwise no
+    leading zeros are printed in the output. The '\n' character is NOT
+    printed at the end of the output. <br>
+    EXAMPLES:
+    <pre>&nbsp; n=0&nbsp; Output:0<br>&nbsp; n=4&nbsp; Output:100<br>&nbsp; n=27 Output:11011</pre>
+    <b>NOTE: Your recursive implementation must not use any local
+      variables.</b> <br>
+    &nbsp;
+    <h4> 2. Triangle Pattern</h4>
+    <pre>&nbsp; void triangle(ostream&amp; outs, unsigned int m, unsigned int n)<br>&nbsp; // Precondition: m &lt;= n<br>&nbsp; // Postcondition: The function has printed a pattern of 2*(n-m+1) lines<br>&nbsp; // to the output stream outs. The first line contains m asterisks, the next&nbsp;<br>&nbsp; // line contains m+1 asterisks, and so on up to a line with n asterisks.<br>&nbsp; // Then the pattern is repeated backwards, going n back down to m.<br>&nbsp; /* Example output:<br>&nbsp;&nbsp;&nbsp;&nbsp; triangle(cout, 3, 5) will print this to cout:<br>&nbsp;&nbsp;&nbsp;&nbsp; ***<br>&nbsp;&nbsp;&nbsp;&nbsp; ****<br>&nbsp;&nbsp;&nbsp;&nbsp; *****<br>&nbsp;&nbsp;&nbsp;&nbsp; *****<br>&nbsp;&nbsp;&nbsp;&nbsp; ****<br>&nbsp;&nbsp;&nbsp;&nbsp; ***<br>&nbsp; */</pre>
+    Hint: Only one of the arguments changes in the recursive call. Which
+    one? <br>
+    &nbsp;
+    <h4> 3. Pow Function (Project 13, page 452)</h4>
+    Rewrite the recursive pow function from Fig. 9.10 on page 445, so
+    that the time to compute pow(x,n) is log(n):
+    <p>&nbsp;&nbsp;&nbsp; double pow(double x, int n); <br>
+      &nbsp;&nbsp;&nbsp; // Precondition: If x is zero, then n must be
+      positive. <br>
+      &nbsp;&nbsp;&nbsp; // Postcondition: The value returned is x
+      raised to the power n. </p>
+    <p><b>Hint: use the formula x^2n = x^n&nbsp; x^n</b> </p>
+    <p><b>4.&nbsp; Repeated and Indented Sentences (Project 1, page 450)</b>
+    </p>
+    <p>Write a&nbsp; function that produces output like the following: </p>
+    <p>This was written by calling number 1. <br>
+      &nbsp; This was written by calling number 2. <br>
+      &nbsp;&nbsp;&nbsp; This was written by calling number 3. <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This was written by calling number
+      4. <br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This was ALSO written by calling
+      number 4. <br>
+      &nbsp;&nbsp;&nbsp; This was ALSO written by calling number 3. <br>
+      &nbsp; This was ALSO written by calling number 2. <br>
+      This was ALSO written by calling number 1. </p>
+    <p>In the above example, the recursion stopped when it reached four
+      levels deep, but your function should be capable of continuing any
+      specific level with the following function prototype. </p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp; void indented_sentences(size_t m, size_t
+      n); <br>
+      // precondition: m &lt;=n; <br>
+      //postcondition: print out the above pattern by calling number
+      from m to n </p>
+    <p> </p>
+    <hr><a >Feng HU</a> ( <a >fhu@gradcenter.cuny.edu</a> ) <br>
+    <address> </address>
+    <hr>
+  </body>
+
+<!-- Mirrored from ccvcl.org/~fhu/Assignments/Assignment_5/CSC212-2016-assignment5.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 11 Dec 2024 04:58:40 GMT -->
+</html>

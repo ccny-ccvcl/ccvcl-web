@@ -1,0 +1,27 @@
+@incollection{HU20181,
+
+title = "Chapter 1 - Computer Vision for Sight: Computer Vision Techniques to Assist Visually Impaired People to Navigate in an Indoor Environment",
+
+editor = "Marco Leo and Giovanni Maria Farinella",
+
+booktitle = "Computer Vision for Assistive Healthcare",
+
+publisher = "Academic Press",
+
+pages = "1 - 49",
+
+year = "2018",
+
+series = "Computer Vision and Pattern Recognition",
+
+isbn = "978-0-12-813445-0",
+
+doi = "https://doi.org/10.1016/B978-0-12-813445-0.00001-0",
+
+url = "http://www.sciencedirect.com/science/article/pii/B9780128134450000010",
+
+author = "Feng Hu and Hao Tang and Aleksandr Tsema and Zhigang Zhu",
+
+keywords = "Indoor navigation, Omnidirectional vision, Environmental modeling, Localization, Path planning, Portable devices, User interfaces, Structure from motion, Place recognition"
+
+}
